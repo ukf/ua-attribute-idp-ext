@@ -1,4 +1,6 @@
+# Binary Java
 *.class
 *.jar
 
+# Maven
 target/
