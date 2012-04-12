@@ -6,7 +6,7 @@
 
     <groupId>net.itumi.idp.ext</groupId>
     <artifactId>ua-attribute-idp-ext</artifactId>
-    <version>1.0.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>User-agent Based Attributes IdP Extension</name>
