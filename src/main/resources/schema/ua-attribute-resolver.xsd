@@ -1,0 +1,22 @@
+<schema targetNamespace="http://ukfederation.org.uk/schemas/uaattribute/resolver" xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:resolver="urn:mace:shibboleth:2.0:resolver" elementFormDefault="qualified">
+
+    <import namespace="urn:mace:shibboleth:2.0:resolver" schemaLocation="classpath:/schema/shibboleth-2.0-attribute-resolver.xsd" />
+
+    <complexType name="UserAgentMappedAttributes">
+        <complexContent>
+            <extension base="resolver:BaseDataConnectorType">
+                <sequence>
+                    <element name="Mapping" minOccurs="0" maxOccurs="unbounded">
+                        <complexType>
+                            <attribute name="cidrBlock" type="string" use="required" />
+                            <attribute name="attributeId" type="string" use="required" />
+                            <attribute name="attributeValue" type="string" use="required" />
+                        </complexType>
+                    </element>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+</schema>
