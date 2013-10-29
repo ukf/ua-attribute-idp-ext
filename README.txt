@@ -11,7 +11,7 @@ This plugin requires Shibboleth IdP v2.3.x
 
 Installation/Upgrade Instructions
 =============================================
-The following steps must be performed during the initial intallation of this
+The following steps must be performed during the initial installation of this
 plugin and at every IdP upgrade.
 
 1. Shutdown the container running the IdP.
