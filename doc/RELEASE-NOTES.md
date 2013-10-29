@@ -1,4 +1,4 @@
-# `ua-attribute-idp-ext` Release Notes
+# `ua-attribute-idp-ext` Release Notes
 
 # Release Notes for Version 1.0.1
 
